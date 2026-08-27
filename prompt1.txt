@@ -1,0 +1,51 @@
+Aku pilih opsi 4 dulu dan fyi aja, aku buat folder baru di drive D, namanya website_jogyezz dan itu masih diisi 3 file-file kosong 
+- indkes.html
+-  style.css
+- script.js
+
+kita mulai vibecodingnya yaa, aku minta kamu buatin prompt dengan kodeblock biar aku bisa langsung salin dan drop ke AI Gemini, aku jelasin dulu nanti ada apa saja didalam website itu. Tampilan pertama ketika di klik nanti kayak gitu seperti di gambar yang aku kirimkan, cuman nanti dibagian yang aku kotakkin warna merah itu semua di blok jadi warna merah bendera indonesia. dan kalimat "Manage your business with OlaClick: Digital Menu, Chatbot, POS, and more." itu nanti di hilangkan saja. Dan tolong promptnya dibuat dengan Detail dan panjang juga gapapa, dan tolong jangan mengubah ubah ide yang aku buat selain aku perintahkan. Jika ad ayang ingin ditanyakan ditanyakan dulu sebelum membuat promptnya agar tidak terjadi misscomunication dan jika dirasa ada typo dariku kamu konfirmasi terlebih dahulu dengan bilang "Apakah kata XXXX benar?" nanti promptnya harus berbahasa inggris agar lebih akurat untuk gemini AI
+
+Nanti di sebelah kiri atas tertulis nama brandnya, yaitu "JogYezz" saja dengan font 29LT Makina dan berwarna putih default agar tidak menabrak warna merah yang ada di dalamnya di sampingnya dan dengan jarak "agak" jauh ada kolom kotak persegi sangat panjang dan agak transparan dengan di dalam kotak persegi sangat panjang itu terdiri dari icon kaca pembesar untuk memperjelas bahwa kolom ini adalah kolom untuk mencari produk dan disebelah kanan DAN MASIH DIDALAM KOLOM PERSEGI SANGAT PANJANG INI tertulis "Cari produk" mungkin kira kira persegi sangat panjangnya hanya mengcover icon search dan tulisan Cari produk saja dan berwarna putih agak tipis fontnya. Setelah itu, di samping kolom search ada garis 3 berwarna hitam kira kira ukurannya sama seperti yang ada di gambar yang saya kirimkan yang jika di klik muncul daftar list rangkuman menu dengan gaya vertical navigation bar dengan latar putih agak transparan dan warna list rangkuman menunya berwarna hitam agak tebal dan fontnya gaya modern, nanti juga ada animasinya, animasinya itu seperti transisi masuk ke kiri dari atas ke bawah dengan urut dan smooth dan ketika user klik garis 3 itu lagi atau klik salah satu tulisan yang ada di kolom garis 3 itu maka transisi akan lanjut ke kiri lagi. dan ketika user klik salah satu list rangkuman menu tersebut maka akan berwarna kuning.
+
+Berikut adalah daftar list rangkuman menu, anggap aja ini variabel seperti yang ada di python ketika nanti saya bilang "List rangkuman menu" nanti pakai ini aja:
+- Ayam + Nasi
+didalam rangkuman menu itu ada: Special Nasi Ayam Geprek Level (1-5), Special Nasi Ayam Geprek Mozzarella Level(0-5), Special Nasi Ayam Geprek Lombok Ijo Level (1-5), Special Nasi Ayam Geprek BAKAR level (0-5), Nasi Ayam Geprek Mayonaise Level, Special Nasi Ayam Krispy Original, dan Special Nasi Spicy Chicken
+- Indomie Goreng JogYezz
+didalam rangkuman menu itu ada: Indomie Goreng, Indomie Goreng Cabe Ijo, Special Indomie Goreng Ayam Geprek Level (0-5), Indomie Goreng Mozzarella, Indomie Goreng Ayam Geprek Mozzarella, dan Indomie Goreng Ayam Geprek Telur
+- Minuman JogYezz
+didalam rangkuman menu itu ada: Es Teh, Es Milo, dan Es Susu Putih Kental Manis (Frisian Flag)
+-Frozen Food JogYezz 
+didalam rangkuman menu itu ada: French Fries (Kentang Goreng), Nugget Ayam (Isi 6 pcs), Paket Kentang Goreng Nugget Ayam, Paket Spicy Chicken French Fries, Bakso Tusuk Bakar (Isi 3 Tusuk), dan Sosis Bakar (isi 2 sosis)
+itu saja. Nanti masih ada gambar produk, harga, dan deskripsi produknya tetapi itu dulu saja. nanti kita pikir pas kodenya sudah jadi
+
+wahh banyak juga yaa
+
+Sekarang kita masuk ke horizontal navigation bar seperti pada gambar diatas, dan horizontal navigation bar nya diisi nama list rangkuman menunya seperti ayam + nasi dan disebelahnya indomie goreng jogyezz dan sebagainya. Semua tulisan harus kapital untuk horizontal navigation bar ini, dan ketika ada user klik, maka otomatis akan menggulir ke dalam daftar menu yang sesuai dengan smooth
+
+Ohiya, warna latar belakang yang ada di main website warna putih yaa jadi yang warna merah cuman bagian atas aja, bisa contoh seperti gambar yang saya kirimkan diatas tetapi tinggal diganti warna merah diatas itu dan bawahnya tetep warna putih. Dan juga nanti setiap menu dikasih seperti bingkai yaa kalau contoh gambar yang aku kirimkan kan enggak dikasih bingkai atau kolom disetiap menunya jadi terlihat menyatu, kalau punya ku enggak dan harus ada bingkainya. 
+
+untuk harga harganya nanti aku tampilkan screenshot an dan KAMU AMBIL HARGA PROMO SAJA bukan harga asli dan kamu WAJIB UNTUK MENUNGGU AKU MENGIRIM GAMBAR SCREENSHOT HARGA SETIAP MENU dengan kamu mengonfirmasi menggunakan kalimat "Siap, aku akan menunggumu mengirimkan screenshot harga" baru akan aku kirim. kamu mungkin bertanya tanya kenapa harus menunggu untuk mengirim semua gambar harga terlebih dahulu baru kamu buatkan promptnya? karena biar tidak terjadi limit kirim gambar. gitu aja.
+
+Setelah menampilkan semua menu dan harganya, dibawah menu dikasih jeda dikit nanti akan diisi oleh about us, ini isinya:
+
+## ABOUT US (ini dicetak tebal dan berada di tengah)
+
+### Mengenal Ayam Geprek JogYezz Brajan
+
+Ayam Geprek JogYezz Brajan merupakan cabang ketiga dari JogYezz, yang hadir sejak November 2025 di Dusun Brajan, Tamantirto, Kasihan, Bantul, Daerah Istimewa Yogyakarta. Berawal dari keinginan untuk memperluas kehadiran JogYezz dari cabang utama di JogYezz Suryodiningratan (nanti berwarna biru teksnya bagian JogYezz Suryodiningratan, dan linknya ini https://share.google/3GghQMvMlWmws9sRC), JogYezz Brajan hadir dengan konsep yang lebih sederhana, dekat, dan fleksibel.
+
+Berbeda dari restoran pada umumnya, JogYezz Brajan beroperasi dari rumah pribadi dan tidak menyediakan area makan di tempat. Konsep ini memungkinkan kami untuk tetap menghadirkan makanan yang lezat dengan harga yang lebih terjangkau, sekaligus menjadi bagian dari usaha untuk mendukung perekonomian keluarga.
+
+### Ayam Geprek Khas Jogja
+
+Menu utama kami adalah ayam geprek dengan pilihan level pedas 0–5 yang dapat disesuaikan dengan selera. Selain ayam geprek klasik, tersedia pula Ayam Geprek Mozzarella dan Ayam Geprek Bakar dengan pilihan level yang sama. Setiap menu memiliki pasangan minuman yang berbeda, mulai dari Es Teh, Es Susu Putih, hingga Es Milo.
+
+Bagi kami, makanan yang baik tidak harus selalu mahal. Karena itu, kualitas bahan dan harga yang terjangkau menjadi dua hal yang terus kami perhatikan dalam menghadirkan setiap menu.
+
+### Pesan dengan Cara yang Lebih Fleksibel
+
+JogYezz Brajan tersedia melalui GoFood, ShopeeFood, dan GrabFood. Kami juga melayani pengambilan langsung di lokasi serta pengantaran dengan harga yang lebih terjangkau karena tidak melalui potongan biaya administrasi platform makanan. Layanan pengantaran ini khusus tersedia untuk wilayah Jogja.
+
+Konsep tanpa dine-in juga membuat JogYezz Brajan menjadi pilihan bagi mereka yang ingin menikmati makanan di rumah, di kos, atau di tempat lain tanpa harus datang ke restoran.
+
+Dari sebuah rumah di Brajan, kami ingin menghadirkan sesuatu yang sederhana: makanan yang enak, harga yang bersahabat, dan pilihan yang mudah dijangkau kapan pun dibutuhkan—termasuk ketika malam sudah larut.

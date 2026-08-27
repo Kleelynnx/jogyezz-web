@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JogYezz - Menu</title>
+    
+    <!-- Font Awesome untuk ikon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==============================
+         HEADER (Top Red Section)
+         ============================== -->
+    <header class="main-header">
+        
+        <!-- Brand Logo -->
+        <div class="brand-logo">
+            JogYezz
+        </div>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <svg class="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input type="text" class="search-input" placeholder="Cari produk">
+        </div>
+
+        <!-- Hamburger Menu Icon -->
+        <div id="hamburgerIcon" class="hamburger-menu" aria-label="Open navigation menu">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+
+    </header>
+
+    <!-- ==============================
+         SIDE NAVIGATION (Drawer)
+         ============================== -->
+    <aside id="side-drawer" class="nav-drawer">
+        <!-- DAFTAR MENU UTAMA -->
+        <ul class="drawer-links">
+            <li><a href="#ayam">Ayam + Nasi</a></li>
+            <li><a href="#indomie">Indomie Goreng JogYezz</a></li>
+            <li><a href="#minuman">Minuman JogYezz</a></li>
+            <li><a href="#frozen">Frozen Food JogYezz</a></li>
+        </ul>
+
+        <!-- ========================================= -->
+        <!-- FOOTER DRAWER: ICON TEMA, BAHASA, DISCORD -->
+        <!-- ========================================= -->
+        <div class="drawer-footer">
+            <!-- 1. Ikon Tema (Light/Dark) -->
+            <div id="themeToggle" class="drawer-icon" title="Ganti Tema">
+                <i class="fas fa-sun" id="themeIcon"></i>
+            </div>
+
+            <!-- 2. Ikon Bahasa -->
+            <div id="languageToggle" class="drawer-icon" title="Pilih Bahasa">
+                <i class="fas fa-globe"></i>
+            </div>
+
+            <!-- 3. Ikon Discord -->
+            <a href="https://discord.gg/cgp2thYZ" target="_blank" class="drawer-icon" title="Hubungi via Discord">
+                <i class="fab fa-discord"></i>
+            </a>
+        </div>
+    </aside>
+
+    <!-- ==============================
+         HORIZONTAL NAVIGATION 
+         ============================== -->
+    <nav class="horizontal-nav">
+        <ul class="nav-links">
+            <li><a href="#ayam">AYAM + NASI</a></li>
+            <li><a href="#indomie">INDOMIE GORENG JOGYEZZ</a></li>
+            <li><a href="#minuman">MINUMAN JOGYEZZ</a></li>
+            <li><a href="#frozen">FROZEN FOOD JOGYEZZ</a></li>
+        </ul>
+    </nav>
+
+    <!-- ==============================
+         MAIN CONTENT & MENU DISPLAY
+         ============================== -->
+    <main class="menu-content">
+        
+        <!-- ===================== -->
+        <!-- KATEGORI: AYAM + NASI -->
+        <!-- ===================== -->
+        <section id="ayam" class="menu-section">
+            <h2 class="section-title">🍗 Ayam + Nasi</h2>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Ayam Geprek Level (1-5).webp" alt="Special Nasi Ayam Geprek Level (1-5)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Ayam Geprek Level (1-5)</h3>
+                    <p class="item-desc">Nasi + Ayam Geprek Level 1-5 + Timun</p>
+                </div>
+                <div class="item-price">Rp 21.600</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Ayam Geprek Mozzarella Level(0-5).webp" alt="Special Nasi Ayam Geprek Mozzarella Level (0-5)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Ayam Geprek Mozzarella Level (0-5)</h3>
+                    <p class="item-desc">Nasi + Ayam Geprek Mozzarella + Timun</p>
+                </div>
+                <div class="item-price">Rp 31.500</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Ayam Geprek Lombok Ijo Level (1-5).webp" alt="Special Nasi Ayam Geprek Lombok Ijo Level (1-5)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Ayam Geprek Lombok Ijo Level (1-5)</h3>
+                    <p class="item-desc">Nasi + ayam geprek lombok ijo level (1-5)</p>
+                </div>
+                <div class="item-price">Rp 21.600</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Ayam Geprek BAKAR level (0-5).webp" alt="Special Nasi Ayam Geprek BAKAR level (0-5)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Ayam Geprek BAKAR level (0-5)</h3>
+                    <p class="item-desc">Nasi + Ayam Geprek Level yang dibakar dengan kecap manis +...</p>
+                </div>
+                <div class="item-price">Rp 23.800</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Nasi Ayam Geprek Mayonaise Level.webp" alt="Nasi Ayam Geprek Mayonaise Level" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Nasi Ayam Geprek Mayonaise Level</h3>
+                    <p class="item-desc">Nasi + Ayam Geprek Mayonaise Level + Lalapan</p>
+                </div>
+                <div class="item-price">Rp 23.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Ayam Krispy Original.webp" alt="Special Nasi Ayam Krispy Original" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Ayam Krispy Original</h3>
+                    <p class="item-desc">Nasi + Ayam Krispy Original + Saos Tomat/Pedas</p>
+                </div>
+                <div class="item-price">Rp 19.800</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Nasi Spicy Chicken.webp" alt="Special Nasi Spicy Chicken" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Nasi Spicy Chicken</h3>
+                    <p class="item-desc">Nasi + Spicy Chicken (1 Potong Ayam) + Lalapan + saos pedas</p>
+                </div>
+                <div class="item-price">Rp 26.600</div>
+            </div>
+        </section>
+
+        <!-- ============================= -->
+        <!-- KATEGORI: INDOMIE GORENG JOGYEZZ -->
+        <!-- ============================= -->
+        <section id="indomie" class="menu-section">
+            <h2 class="section-title">🍜 Indomie Goreng JogYezz</h2>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Indomie Goreng Cabe Ijo.webp" alt="Indomie Goreng Cabe Ijo" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Indomie Goreng Cabe Ijo</h3>
+                    <p class="item-desc">Indomie Goreng Cabe Ijo</p>
+                </div>
+                <div class="item-price">Rp 12.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Indomie Goreng Telor.webp" alt="Indomie Goreng Telor" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Indomie Goreng Telor</h3>
+                    <p class="item-desc">Indomie Goreng + Telur Ayam</p>
+                </div>
+                <div class="item-price">Rp 20.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Special Indomie Goreng Ayam Geprek Level (0-5).webp" alt="Special Indomie Goreng Ayam Geprek Level (0-5)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Special Indomie Goreng Ayam Geprek Level (0-5)</h3>
+                    <p class="item-desc">Indomie Goreng Original + Ayam Geprek + Timun</p>
+                </div>
+                <div class="item-price">Rp 30.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Indomie Goreng Mozzarella.webp" alt="Indomie Goreng Mozzarella" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Indomie Goreng Mozzarella</h3>
+                    <p class="item-desc">Indomie Goreng Original Dengan Topping Keju Mozzarella</p>
+                </div>
+                <div class="item-price">Rp 20.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Indomie Goreng Ayam Geprek Mozzarella.webp" alt="Indomie Goreng Ayam Geprek Mozzarella" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Indomie Goreng Ayam Geprek Mozzarella</h3>
+                    <p class="item-desc">Indomie Goreng Original + Ayam Geprek Level Dengan Topping...</p>
+                </div>
+                <div class="item-price">Rp 37.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Indomie Goreng Ayam Geprek Telur.webp" alt="Indomie Goreng Ayam Geprek Telur" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Indomie Goreng Ayam Geprek Telur</h3>
+                    <p class="item-desc">Indomie goreng + ayam geprek level + telur + lalapan (timun)</p>
+                </div>
+                <div class="item-price">Rp 35.000</div>
+            </div>
+        </section>
+
+        <!-- ===================== -->
+        <!-- KATEGORI: MINUMAN JOGYEZZ -->
+        <!-- ===================== -->
+        <section id="minuman" class="menu-section">
+            <h2 class="section-title">🥤 Minuman JogYezz</h2>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Es Teh.webp" alt="Es Teh" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Es Teh</h3>
+                    <p class="item-desc">Teh + Es Batu</p>
+                </div>
+                <div class="item-price">Rp 6.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Es Milo.webp" alt="Es Milo" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Es Milo</h3>
+                    <p class="item-desc">Milo 1 Sachet + Es Batu</p>
+                </div>
+                <div class="item-price">Rp 8.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Es Susu Putih Kental Manis (Frisian Flag).webp" alt="Es Susu Putih Kental Manis (Frisian Flag)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Es Susu Putih Kental Manis (Frisian Flag)</h3>
+                    <p class="item-desc">Susu putih kental manis (frisian flag) 1 sachet + es batu</p>
+                </div>
+                <div class="item-price">Rp 7.000</div>
+            </div>
+        </section>
+
+        <!-- ===================== -->
+        <!-- KATEGORI: FROZEN FOOD -->
+        <!-- ===================== -->
+        <section id="frozen" class="menu-section">
+            <h2 class="section-title">🧊 Frozen Food JogYezz</h2>
+
+            <div class="menu-card">
+                <img src="daftar_menu/French Fries (Kentang Goreng).webp" alt="French Fries (Kentang Goreng)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">French Fries (Kentang Goreng)</h3>
+                    <p class="item-desc">Kentang goreng renyah</p>
+                </div>
+                <div class="item-price">Rp 15.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Nugget Ayam (Isi 6 pcs).webp" alt="Nugget Ayam (Isi 6 pcs)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Nugget Ayam (Isi 6 pcs)</h3>
+                    <p class="item-desc">Nugget ayam isi 6 pcs</p>
+                </div>
+                <div class="item-price">Rp 11.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Paket Kentang Goreng Nugget Ayam.webp" alt="Paket Kentang Goreng Nugget Ayam" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Paket Kentang Goreng Nugget Ayam</h3>
+                    <p class="item-desc">Paket kentang goreng + nugget ayam</p>
+                </div>
+                <div class="item-price">Rp 25.500</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Paket Spicy Chicken French Fries.webp" alt="Paket Spicy Chicken French Fries" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Paket Spicy Chicken French Fries</h3>
+                    <p class="item-desc">Paket spicy chicken + french fries</p>
+                </div>
+                <div class="item-price">Rp 34.800</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Bakso Tusuk Bakar (Isi 3 Tusuk).webp" alt="Bakso Tusuk Bakar (Isi 3 Tusuk)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Bakso Tusuk Bakar (Isi 3 Tusuk)</h3>
+                    <p class="item-desc">Bakso tusuk bakar isi 3 tusuk</p>
+                </div>
+                <div class="item-price">Rp 15.000</div>
+            </div>
+
+            <div class="menu-card">
+                <img src="daftar_menu/Sosis Bakar (isi 2 sosis).webp" alt="Sosis Bakar (isi 2 sosis)" class="menu-image">
+                <div class="item-info">
+                    <h3 class="item-name">Sosis Bakar (isi 2 sosis)</h3>
+                    <p class="item-desc">Sosis bakar isi 2 sosis</p>
+                </div>
+                <div class="item-price">Rp 17.000</div>
+            </div>
+        </section>
+
+        <!-- ============================== -->
+        <!-- ABOUT US SECTION              -->
+        <!-- ============================== -->
+        <section id="about" class="about-section">
+            <h2 class="about-title">ABOUT US</h2>
+            
+            <h3 class="about-subtitle">Mengenal Ayam Geprek JogYezz Brajan</h3>
+            <p class="about-text">
+                Ayam Geprek JogYezz Brajan merupakan cabang ketiga dari JogYezz, yang hadir sejak November 2025 di Dusun Brajan, Tamantirto, Kasihan, Bantul, Daerah Istimewa Yogyakarta. Berawal dari keinginan untuk memperluas kehadiran JogYezz dari cabang utama di <a href="https://share.google/3GghQMvMlWmws9sRC" target="_blank" class="about-link">JogYezz Suryodiningratan</a>, JogYezz Brajan hadir dengan konsep yang lebih sederhana, dekat, dan fleksibel.
+            </p>
+            <p class="about-text">
+                Berbeda dari restoran pada umumnya, JogYezz Brajan beroperasi dari rumah pribadi dan tidak menyediakan area makan di tempat. Konsep ini memungkinkan kami untuk tetap menghadirkan makanan yang lezat dengan harga yang lebih terjangkau, sekaligus menjadi bagian dari usaha untuk mendukung perekonomian keluarga.
+            </p>
+
+            <h3 class="about-subtitle">Ayam Geprek Khas Jogja</h3>
+            <p class="about-text">
+                Menu utama kami adalah ayam geprek dengan pilihan level pedas 0–5 yang dapat disesuaikan dengan selera. Selain ayam geprek klasik, tersedia pula Ayam Geprek Mozzarella dan Ayam Geprek Bakar dengan pilihan level yang sama. Setiap menu memiliki pasangan minuman yang berbeda, mulai dari Es Teh, Es Susu Putih, hingga Es Milo.
+            </p>
+            <p class="about-text">
+                Bagi kami, makanan yang baik tidak harus selalu mahal. Karena itu, kualitas bahan dan harga yang terjangkau menjadi dua hal yang terus kami perhatikan dalam menghadirkan setiap menu.
+            </p>
+
+            <h3 class="about-subtitle">Pesan dengan Cara yang Lebih Fleksibel</h3>
+            <p class="about-text">
+                JogYezz Brajan tersedia melalui GoFood, ShopeeFood, dan GrabFood. Kami juga melayani pengambilan langsung di lokasi serta pengantaran dengan harga yang lebih terjangkau karena tidak melalui potongan biaya administrasi platform makanan. Layanan pengantaran ini khusus tersedia untuk wilayah Jogja.
+            </p>
+            <p class="about-text">
+                Konsep tanpa dine-in juga membuat JogYezz Brajan menjadi pilihan bagi mereka yang ingin menikmati makanan di rumah, di kos, atau di tempat lain tanpa harus datang ke restoran.
+            </p>
+            <p class="about-text">
+                Dari sebuah rumah di Brajan, kami ingin menghadirkan sesuatu yang sederhana: makanan yang enak, harga yang bersahabat, dan pilihan yang mudah dijangkau kapan pun dibutuhkan—termasuk ketika malam sudah larut.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- ================================================== -->
+    <!-- POPUP PILIHAN BAHASA (Overlay + Modal)              -->
+    <!-- ================================================== -->
+    <!-- Overlay gelap di belakang popup -->
+    <div id="languageOverlay" class="language-overlay">
+        <!-- Modal popup -->
+        <div class="language-modal">
+            <h3 class="language-title">🌐 Pilih Bahasa</h3>
+            <div class="language-options">
+                <!-- Bahasa Indonesia -->
+                <div class="language-item" data-lang="id">
+                    <span class="lang-flag">🇮🇩</span>
+                    <span class="lang-name">Bahasa Indonesia</span>
+                </div>
+                <!-- Bahasa Inggris -->
+                <div class="language-item" data-lang="en">
+                    <span class="lang-flag">🇬🇧</span>
+                    <span class="lang-name">English</span>
+                </div>
+                <!-- Bahasa Mandarin -->
+                <div class="language-item" data-lang="zh">
+                    <span class="lang-flag">🇨🇳</span>
+                    <span class="lang-name">中文 (Mandarin)</span>
+                </div>
+                <!-- Bahasa Korea -->
+                <div class="language-item" data-lang="ko">
+                    <span class="lang-flag">🇰🇷</span>
+                    <span class="lang-name">한국어</span>
+                </div>
+                <!-- Bahasa Jepang -->
+                <div class="language-item" data-lang="ja">
+                    <span class="lang-flag">🇯🇵</span>
+                    <span class="lang-name">日本語</span>
+                </div>
+            </div>
+            <!-- Tombol tutup -->
+            <button id="closeLanguagePopup" class="close-language-btn">✕ Tutup</button>
+        </div>
+    </div>
+    
+        <!-- ================================================== -->
+    <!-- TUTORIAL / ONBOARDING WALKTHROUGH                  -->
+    <!-- ================================================== -->
+    <div id="tutorialOverlay" class="tutorial-overlay">
+        <div class="tutorial-card">
+            <div class="tutorial-icon">👋</div>
+            <h2 class="tutorial-title">Welcome to JogYezz!</h2>
+            <p class="tutorial-desc">
+                To change the <strong>theme</strong> (light/dark) or <strong>language</strong>, 
+                tap the <strong>☰ menu</strong> in the top-right corner.
+            </p>
+            <div class="tutorial-actions">
+                <button id="tutorialSkip" class="tutorial-btn tutorial-btn-skip">Got it</button>
+                <button id="tutorialShow" class="tutorial-btn tutorial-btn-show">Show me</button>
+            </div>
+            <!-- Pointer / panah ke hamburger -->
+            <div id="tutorialPointer" class="tutorial-pointer">
+                <div class="pointer-arrow">▼</div>
+                <div class="pointer-label">☰ Tap here</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================== -->
+    <!-- JavaScript                     -->
+    <!-- ============================== -->
+    <script src="script.js"></script>
+</body>
+</html>
