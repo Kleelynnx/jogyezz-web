@@ -339,9 +339,13 @@ body.dark-mode .tutorial-btn-skip:hover {
     align-items: center;
     padding: 16px 24px;
     border-top: 1px solid rgba(0, 0, 0, 0.08);
-    margin-top: auto;
     flex-shrink: 0;
     transition: border-color 0.5s ease;
+    /* PERBAIKAN: Biar selalu di bawah layar HP */
+    position: sticky;
+    bottom: 0;
+    background-color: inherit;
+    z-index: 5;
 }
 
 .drawer-icon {
